@@ -2,7 +2,7 @@ require 'yelp'
 
 class DinnerMovie
 
-  def initialize (location, yelp_hash, movie_params )
+  def initialize (location, yelp_hash, movie_params)
     @yelp_response = Yelp.client.search(location, yelp_hash)
     @movie_response = Swayze.new.random_movie
   end
