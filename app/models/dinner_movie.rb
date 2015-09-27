@@ -13,8 +13,10 @@ class DinnerMovie
     # json.dinner @yelp_response.businesses.sample.name
 
     y = @yelp_response.businesses.sample.name
+    a = @yelp_response.businesses.sample.location.address
+
     m = @movie_response.sample
-    choice = "Tonight's magical evening is brought to you by #{y} and #{m}."
+    choice = "Tonight's magical evening is brought to you by #{y}, #{a} and #{m}."
 
     #y = @yelp_response
     #m = @movie_response
@@ -27,11 +29,7 @@ class DinnerMovie
     #   d_array << x["region"]["businesses"]["rating"].to_s
     # end#movie = @movie_response.sample
     # d_array
-    #@yelp_array.inspect
-    #@yelp_response
-    #@swayze_movies
-    #@yelp_response
-    #@yelp_response
+
   end
 end
 
