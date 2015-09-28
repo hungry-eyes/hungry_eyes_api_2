@@ -1,6 +1,6 @@
 require 'yelp'
 
-class YelpModel
+class Yelp
 
   def initialize (location, yelp_hash, movie_params )
     @yelp_response = Yelp.client.search(location, yelp_hash)
