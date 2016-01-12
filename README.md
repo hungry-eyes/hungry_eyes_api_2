@@ -3,9 +3,8 @@
 ## Description
 
 Have you ever had one of those evenings when only cheap take-out food and
-Patrick Swayze movies will suffice? We understand, and we did something
-about it. Enjoy!
-=======
+Patrick Swayze movies will suffice? We understand, and we did something about it. Enjoy!
+
 Have you ever had one of those evenings when only cheap take-out food and Patrick Swayze movies will suffice? We understand, and we did something
 about it.
 
