@@ -31,9 +31,9 @@ will result in another random pairing.
 
 
 You know you can't resist. Go ahead, click the link below!
-
+<p align="center">
 [![HUNGRY EYES](http://img.youtube.com/vi/WUxxTYFf-6E/0.jpg)](http://www.youtube.com/watch?v=WUxxTYFf-6E)
-
+</p>
 ## How the magic happens!
 
 The Hungry Eyes API consumes two publicly available APIs on two different data sets. The first API that is utilized is Netflix Roulette and the second API is Yelp. The first and most important function of this API is to pull a random movie title from the Netflix Roulette API that is blessed to have Patrick Swayze as a cast member. We chose to pull a random movie title because we know it's not humanly possible to pick just one Patrick Swayze movie. The next function of the API pulls from the Yelp API which allows the user to select a type of take-out food (Chinese, burrito, pizza, etc.) based on a given location (zip code or city name). Now with a Swayze movie and take-out food in hand the magic can begin.
